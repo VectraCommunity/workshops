@@ -323,8 +323,8 @@ To assume the role you will need the role ARN for cg-lambdaManager-role-lambda. 
 
      vi  ~/.aws/credentials
 
-.. figure:: ./images/sestoken.png
-   :alt: sestoken
+.. figure:: ./images/LambdaManagerKey.png
+   :alt: LambdaManagerKey
 
 - Create new file
 
@@ -332,7 +332,7 @@ To assume the role you will need the role ARN for cg-lambdaManager-role-lambda. 
 
      touch lambda_function.py && vi lambda_function.py
 
-- Add contents to new file anc update with your discovered username ``aws sts get-caller-identity --profile chris``
+- Add contents to new file and update with your discovered username ``aws sts get-caller-identity --profile chris``
 
 .. code:: python
 
