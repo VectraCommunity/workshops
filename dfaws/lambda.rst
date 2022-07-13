@@ -396,7 +396,8 @@ Persistence has been set. Lets create a new user to test it (you don't need to l
 
 Now let’s visit our C2 site https://commander.vectratme.com/ to verify.  You will need a logon provided by Vectra.
 
-image
+.. figure:: ./images/C2Server.png
+   :alt: C2
 
 Lab Cleanup
 ===========
