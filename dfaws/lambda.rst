@@ -249,7 +249,7 @@ privileges.
     aws iam list-attached-user-policies --user-name <associated user name> --profile chris
 
 .. figure:: ./images/SetupInfra.png
-   :alt: cgsetup
+   :alt: SetupInfra
 
 - Get current version of the policy using the ARN from the previous step
 
