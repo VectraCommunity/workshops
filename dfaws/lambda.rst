@@ -282,6 +282,9 @@ The policy allows the user to assume and list roles
 
     aws iam list-attached-role-policies --role-name <lambda manager role name> --profile chris
 
+.. figure:: ./images/ListRolePolicies.png
+   :alt: ListRolePolicies
+
 - From that output you can see
    - ``cg-debug-role-lambda_privesc`` can be assumed by a Lambda
    - ``cg-lambdaManager-role-lambda_privesc`` can be assumed by your user
