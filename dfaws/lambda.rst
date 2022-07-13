@@ -378,6 +378,9 @@ For this part of the attack we will use Pacu
 -  Add the keys from your AWS profile using ``import_keys chris``
 -  List the Lambda functions with ``run lambda__enum``
 
+.. figure:: ./images/LambdaEnum.png
+   :alt: LambdaEnum
+
 Create persistence with Lambda that creates a backdoor IAM user credentials.  This will require 2 inputs which you will need prior to proceeding
    - Role ARN from previous attack ``aws iam list-roles --profile chris | grep cg-debug-role-lambda``
    - exfil-url ``https://commander-api.vectratme.com/adduser``
