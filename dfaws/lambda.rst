@@ -304,6 +304,9 @@ To assume the role you will need the role ARN for cg-lambdaManager-role-lambda. 
 
 - When you assume the role new security credentials displayed.  You will need these to setup a new profile so copy them to your text tile 
 
+.. figure:: ./images/AssumeLambdaManagerRole.png
+   :alt: AssumeLambdaManagerRole
+
 - Create a new AWS profile
 
 .. code:: console
