@@ -367,6 +367,8 @@ To assume the role you will need the role ARN for cg-lambdaManager-role-lambda. 
 
     aws iam list-attached-user-policies --user-name <username> --profile chris
 
+.. figure:: ./images/ListAttachedPolicies.png
+   :alt: ListAttachedPolicies
 
 Serverless Persistence
 ======================
