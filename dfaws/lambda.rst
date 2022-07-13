@@ -259,6 +259,9 @@ privileges.
 
 The policy allows the user to assume and list roles
 
+.. figure:: ./images/GetPolicy.png
+   :alt: GetPolicy
+
 - List the roles and copy the ``Role Name`` and ``ARN`` of the role name to your text file
 
 .. code:: console
