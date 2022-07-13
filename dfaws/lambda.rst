@@ -212,9 +212,6 @@ Create vulnerable infrastructure
    
     ~/cloudgoat/cloudgoat.py create lambda_privesc
 
-.. figure:: ./images/cloudgoatout.png
-   :alt: cgsetup
-
 - Collect the 3 outputs and copy them to a text file:
    - cloudgoat_output_aws_account_id
    - cloudgoat_output_chris_access_key_id
@@ -250,6 +247,9 @@ privileges.
 .. code:: console
 
     aws iam list-attached-user-policies --user-name <associated user name> --profile chris
+
+.. figure:: ./images/SetupInfra.png
+   :alt: cgsetup
 
 - Get current version of the policy using the ARN from the previous step
 
