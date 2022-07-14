@@ -135,7 +135,7 @@ Install Cloudgoat
 
 .. code:: console
 
-    pip3 install -r ./core/python/requirements.txt && chmod u+x cloudgoat.py
+    pip3 install -r requirements.txt && chmod u+x cloudgoat.py
 
 Install Pacu
 ++++++++++++
